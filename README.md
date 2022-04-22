@@ -1,3 +1,5 @@
+# Para que funcione, clonar el repositorio y abrirlo con Visual Studio Code. Abre un terminal y escribe **npm install**.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
