@@ -1,15 +1,10 @@
-
-const App = ({name, surname}) => {
-
+import Welcome from "./components/Welcome.jsx";
+const App = () => {
   return (                        
-  <>                                  
-    <h1>Hello World</h1>             
-    <p>Hola {name} {surname}</p>
+  <>
+    <Welcome name='Pepe' surname='Gonzalez'/>
   </>
   );
 };
 
 export default App;
-
- // para poner varias etiquetas, una dentro de otra, utilizamos un div.
- // tambien podemos hacerlo con Fragment o como sale en el documento, vacío.

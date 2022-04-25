@@ -9,4 +9,4 @@ import App from './App';
 import './index.css'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render( <App name='Pepe' surname='Gonzalez'/>);
+root.render(<App/>);
