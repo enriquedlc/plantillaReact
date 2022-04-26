@@ -1,8 +1,11 @@
-import Welcome from "./components/Welcome.jsx";
+import Card from "./components/Card.jsx";
+import Header from "./components/Header.jsx";
+
 const App = () => {
   return (                        
   <>
-    <Welcome name='Pepe' surname='Gonzalez'/>
+    <Header title/>
+    <Card name = 'Dwayne Johnson' birthday="1972/05/02"/> 
   </>
   );
 };

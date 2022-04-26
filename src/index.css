@@ -1,7 +1,39 @@
 html, body {
-  color: white;
-  background-color: #212321;
+  color: black;
   font-family: arial;
   font-size: 1.3rem;
-  padding: 70px;
   }
+
+.title{
+  display: flex;
+  justify-content: center;
+  background-color: #212329;
+  color: white;
+  
+}
+.cajaGrande{
+  border-radius: 0px 0px 5px 5px;
+  background-color: #e7ecf1;
+  color: blue;
+  font-size: 14px;
+  margin-left: 15%;
+  margin-right: 20%;
+  margin-top: 2%;
+  
+}
+.cajaPequeña{
+  background-color: #378fcb;
+  border-radius: 5px 5px 0px 0px;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-top: 5px;
+
+}
+
+.textoCaja {
+  padding-left: 12px;
+  padding-bottom: 5px;
+}
+
